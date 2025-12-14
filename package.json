@@ -1,0 +1,9 @@
+{
+  "name": "dtl-vocabulary",
+  "version": "1.0.0",
+  "description": "DTL Vocabulary built with rheo",
+  "private": true,
+  "devDependencies": {
+    "netlify-plugin-cache": "^1.0.3"
+  }
+}

@@ -1,0 +1,25 @@
+= Critical terms for artificially intelligent life 
+
+== terms being worked on 
+- #link("./llm.typ")[llm] 
+
+
+== placeholders 
+- #link("./alignment.typ")[alignment] 
+- #link("./attention.typ")[attention] 
+- #link("./base-model.typ")[base model] 
+- #link("./chat-assistant.typ")[chat assistant] 
+- #link("./context-window.typ")[context window] 
+- #link("./embedding.typ")[embedding] 
+- #link("./few-shot.typ")[few shot] 
+- #link("./fine-tuning.typ")[fine tuning] 
+- #link("./inference.typ")[inference] 
+- #link("./neural-net.typ")[neural net] 
+- #link("./pre-training.typ")[pre-training] 
+- #link("./prompt-engineering.typ")[prompt engineering] 
+- #link("./prompt-injection.typ")[prompt injection] 
+- #link("./prompt.typ")[prompt] 
+- #link("./temperature.typ")[temperature] 
+- #link("./token.typ")[token] 
+- #link("./tokenization.typ")[tokenization] 
+- #link("./transformer.typ")[transformer] 

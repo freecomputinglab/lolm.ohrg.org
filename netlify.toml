@@ -1,0 +1,17 @@
+[build]
+  command = "bash build.sh"
+  publish = "build/html"
+
+[build.environment]
+  CARGO_HOME = "/opt/build/cache/cargo"
+  RUSTUP_HOME = "/opt/build/cache/rustup"
+
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+    paths = [
+      "/opt/build/cache/cargo",
+      "/opt/build/cache/rustup",
+      "/opt/build/cache/rheo-binary"
+    ]
