@@ -1,11 +1,7 @@
 = Critical terms for artificially intelligent life 
 
-== terms being worked on 
 - #link("./llm.typ")[llm] 
-
-
-== placeholders 
-- #link("./alignment.typ")[alignment] 
+- #link("./alignment.typ")[alignment]  
 - #link("./attention.typ")[attention] 
 - #link("./base-model.typ")[base model] 
 - #link("./chat-assistant.typ")[chat assistant] 
