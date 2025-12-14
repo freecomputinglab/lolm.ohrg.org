@@ -1,0 +1,9 @@
+content_dir = "terms"
+
+[pdf.merge]
+spine = ["*.typ"]
+title = "Critical terms for artificially intelligent life"
+
+[epub.merge]
+spine = ["*.typ"]
+title = "Critical terms for artificially intelligent life"
