@@ -7,59 +7,19 @@ echo "Timestamp: $(date)"
 
 # Setup paths
 REPO_DIR="$(pwd)"
-CARGO_BIN="$CARGO_HOME/bin"
+RHEO_VERSION="v0.1.2"
 RHEO_CACHE="$REPO_DIR/.rheo-binary"
 RHEO_BIN="$RHEO_CACHE/rheo"
 
-# Install Rust if not already cached
-if [ ! -f "$CARGO_BIN/cargo" ]; then
-  echo "Installing Rust toolchain..."
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable --profile minimal
-  source "$CARGO_HOME/env"
-else
-  echo "Using cached Rust toolchain"
-fi
-
-# Add cargo to PATH
-export PATH="$CARGO_BIN:$PATH"
-
-# Verify Rust installation
-rustc --version
-cargo --version
-
-# Build or use cached rheo binary
+# Download rheo binary from GitHub release if not cached
 if [ ! -f "$RHEO_BIN" ]; then
-  echo "Building rheo from source..."
-
-  # Clone the rheo repository using GitHub token for private repo access
-  # The GITHUB_TOKEN environment variable should be set in Netlify
-  if [ -z "$GITHUB_TOKEN" ]; then
-    echo "Error: GITHUB_TOKEN environment variable not set"
-    echo "Please add a GitHub Personal Access Token in Netlify's environment variables"
-    exit 1
-  fi
-
-  git clone https://${GITHUB_TOKEN}@github.com/breezykermo/rheo /tmp/rheo
-
-  cd /tmp/rheo
-
-  # Build rheo in release mode
-  cargo build --release
-
-  # Verify binary was created
-  if [ ! -f "target/release/rheo" ]; then
-    echo "Error: rheo binary not found after build"
-    exit 1
-  fi
-
-  # Cache the binary
+  echo "Downloading rheo ${RHEO_VERSION}..."
   mkdir -p "$RHEO_CACHE"
-  cp target/release/rheo "$RHEO_BIN"
+  curl -sL "https://github.com/freecomputinglab/rheo/releases/download/${RHEO_VERSION}/rheo-x86_64-unknown-linux-gnu.zip" -o /tmp/rheo.zip
+  unzip -o /tmp/rheo.zip -d "$RHEO_CACHE"
   chmod +x "$RHEO_BIN"
-
-  cd "$REPO_DIR"
-
-  echo "Rheo built and cached successfully"
+  rm /tmp/rheo.zip
+  echo "Rheo downloaded successfully"
 else
   echo "Using cached rheo binary"
 fi
@@ -72,7 +32,7 @@ rheo --version || echo "Warning: rheo --version failed, but continuing..."
 
 # Compile the vocabulary project
 echo "Compiling dtl_vocabulary with rheo..."
-rheo compile .
+rheo compile . --html
 
 # Verify output was generated
 if [ ! -f "build/html/index.html" ]; then
