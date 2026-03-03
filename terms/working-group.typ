@@ -1,7 +1,7 @@
 #import "index.typ": template
 #show: template
 
-= Working group
+= Progressing the Terminology
 
 LOLM is developed through a working group that meets weekly.
 This document details the structure for the process by which we surface, construct, and editorially manage new entries in the project.
@@ -57,13 +57,15 @@ The LOLM working group uses the following tools and platforms:
 - #link("https://github.com/")[GitHub] as a source forge. The #link("https://github.com/freecomputinglab/lolm.ohrg.org")[LOLM repository] is developed in public, and as such anyone can open a pull request to it. (For technical guidance on how this can be done, please ask in Zulip.) 
 - #link("https://typst.app")[Typst] is the markup language in which LOLM is written. If you are new to Typst, we recommend the #link("https://typst.app/docs/tutorial/")[excellent Typst tutorial]. 
 
-== The lifecycle of a term by example 
+== The lifecycle of a term by example: 'attention'
 
-[Live demo]
+[pending...]
 
-#table(
-  columns: 2,
-  [Term], [Attention],
-  [Steward], [Ryan Healey],
-  [Editor], [Lachlan Kermode],
-)
+// [Live demo]
+//
+// #table(
+//   columns: 2,
+//   [Term], [Attention],
+//   [Steward], [Ryan Healey],
+//   [Editor], [Lachlan Kermode],
+// )

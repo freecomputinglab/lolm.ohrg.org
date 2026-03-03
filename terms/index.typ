@@ -1,3 +1,16 @@
+#let term(name, url, active: false) = {
+  if active {
+    box(
+      fill: rgb("#f0f0f0"),
+      inset: 6pt,
+      radius: 3pt,
+      [#link(url)[#name]]
+    )
+  } else {
+    [#link(url)[#name]]
+  }
+}
+
 #let template(body) = {
   [== #link("/")[The Language of Language Machines]]
   body
@@ -5,28 +18,30 @@
 
 #show: template
 
-- #link("./llm.typ")[llm]
-- #link("./alignment.typ")[alignment]  
-- #link("./attention.typ")[attention] 
-- #link("./base-model.typ")[base model] 
-- #link("./context-window.typ")[context window] 
-- #link("./embedding.typ")[embedding] 
-- #link("./few-shot.typ")[few shot] 
-- #link("./fine-tuning.typ")[fine tuning] 
-- #link("./inference.typ")[inference] 
-- #link("./neural-net.typ")[neural net] 
-- #link("./pre-training.typ")[pre-training] 
-- #link("./prompt-engineering.typ")[prompt engineering] 
-- #link("./prompt-injection.typ")[prompt injection] 
-- #link("./temperature.typ")[temperature] 
-- #link("./tokenization.typ")[tokenization] 
-- #link("./transformer.typ")[transformer] 
-- #link("./vibe-coding.typ")[vibe coding] 
+- #term("llm", "./llm.html", active: true)
+- #term("alignment", "./alignment.html")
+- #term("attention", "./attention.html", active: true)
+- #term("base model", "./base-model.html")
+- #term("context window", "./context-window.html")
+- #term("embedding", "./embedding.html")
+- #term("few shot", "./few-shot.html")
+- #term("fine tuning", "./fine-tuning.html")
+- #term("inference", "./inference.html")
+- #term("neural net", "./neural-net.html")
+- #term("pre-training", "./pre-training.html")
+- #term("prompt engineering", "./prompt-engineering.html")
+- #term("prompt injection", "./prompt-injection.html")
+- #term("temperature", "./temperature.html")
+- #term("tokenization", "./tokenization.html")
+- #term("transformer", "./transformer.html")
+- #term("vibe coding", "./vibe-coding.html") 
 
 == What is this?
 
 _The Language of Language Machines_ is a working group to produce a critical vocabulary for understanding contemporary (post-2015) natural language processing (NLP) literature.
-Said vocabulary is in-progress above.
+Said vocabulary is in-progress above: terms with a grey background are in flight within the working group.
+
+For more information regarding our process, see #link("./working-group.typ")[Progressing the Terminology].
 Some work that inspires our approach:
 
 - #link("https://direct.mit.edu/books/monograph/4424/Parallel-Distributed-Processing-Volume")[Parallel Distributed Processing] (1987)  
