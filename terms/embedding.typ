@@ -1,7 +1,11 @@
 #import "index.typ": template
 #show: template
 
-[pending]
+#table(
+  columns: 2,
+  [Virgil], [Jonah Henkle],
+  [Editor], [TBA],
+)
 
 // An embedding is a way of representing words or tokens as lists of numbers (called vectors) that capture their meaning in a form that AI systems can mathematically process.
 // The clever part is that words with similar meanings end up with similar number patterns.
