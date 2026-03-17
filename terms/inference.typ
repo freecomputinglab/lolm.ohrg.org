@@ -1,6 +1,12 @@
 #import "index.typ": template
 #show: template
 
+#table(
+  columns: 2,
+  [Steward], [Rae Bruml Norton],
+  [Editor], [TBA],
+)
+
 [pending]
 
 // Inference is the technical term for what happens when you submit a message to a chat AI and it generates a response.

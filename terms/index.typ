@@ -30,7 +30,7 @@
 - #term("few shot", "./few-shot.html")
 - #term("fine tuning", "./fine-tuning.html")
 - #term("homogenization effects", "./homogenization-effects.html", active: true)
-- #term("inference", "./inference.html")
+- #term("inference", "./inference.html", active: true)
 - #term("multimodality", "./multimodality.html")
 - #term("neural net", "./neural-net.html")
 - #term("pre-training", "./pre-training.html")
