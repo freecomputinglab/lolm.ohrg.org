@@ -243,6 +243,16 @@ section[role="doc-endnotes"] ol li a[role="doc-backlink"] {
 }
 
 /* ============================================
+   Bibliography
+   ============================================ */
+section[role="doc-bibliography"] ul {
+  padding-left: 0;
+}
+section[role="doc-bibliography"] ul li {
+  margin-bottom: 1em;
+}
+
+/* ============================================
    Responsive
    ============================================ */
 @media (max-width: 600px) {
