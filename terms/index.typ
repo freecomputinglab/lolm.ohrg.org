@@ -19,7 +19,7 @@
 #show: template
 
 - #term("llm", "./llm.html", active: true)
-- #term("alignment", "./alignment.html")
+- #term("alignment", "./alignment.html", active: true)
 - #term("artificial general intelligence", "./artificial-general-intelligence.html")
 - #term("artificial intelligence", "./artificial-intelligence.html")
 - #term("attention", "./attention.html", active: true)
