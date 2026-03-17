@@ -20,6 +20,8 @@
 
 - #term("llm", "./llm.html", active: true)
 - #term("alignment", "./alignment.html")
+- #term("artificial general intelligence", "./artificial-general-intelligence.html")
+- #term("artificial intelligence", "./artificial-intelligence.html")
 - #term("attention", "./attention.html", active: true)
 - #term("base model", "./base-model.html")
 - #term("chain-of-thought", "./chain-of-thought.html", active:true)
@@ -29,6 +31,7 @@
 - #term("fine tuning", "./fine-tuning.html")
 - #term("homogenization effects", "./homogenization-effects.html", active: true)
 - #term("inference", "./inference.html")
+- #term("multimodality", "./multimodality.html")
 - #term("neural net", "./neural-net.html")
 - #term("pre-training", "./pre-training.html")
 - #term("prompt engineering", "./prompt-engineering.html")
@@ -37,6 +40,7 @@
 - #term("tokenization", "./tokenization.html")
 - #term("transformer", "./transformer.html")
 - #term("vibe coding", "./vibe-coding.html") 
+- #term("world model", "./world-model.html")
 
 == What is this?
 
