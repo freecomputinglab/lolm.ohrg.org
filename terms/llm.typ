@@ -5,7 +5,7 @@
 
 #table(
   columns: 2,
-  [Virgil], [Lachlan Kermode],
+  [Steward], [Lachlan Kermode],
   [Editor], [Lachlan Kermode],
 )
 

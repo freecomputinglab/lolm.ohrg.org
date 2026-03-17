@@ -3,7 +3,7 @@
 
 #table(
   columns: 2,
-  [Virgil], [Ryan Healey],
+  [Steward], [Ryan Healey],
   [Editor], [Lachlan Kermode],
 )
 
