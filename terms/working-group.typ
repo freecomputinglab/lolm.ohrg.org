@@ -19,11 +19,11 @@ Each entry should aim to:
 + *Offer a philosophical, critical, or media-theoretical framing for the term without abandoning its technical specificity.* What critical distance, if any, should we keep from the way that the term circulates in NLP literature? Does the term bootleg any naturalizing or otherwise problematic assumptions about the technical mechanism to which it refers (such as a claim to biological verisimilitude)?
 + *Conclude with a set of questions to inspire further inquiry.* This might be a seed for further media theoretical thought, an acknowledgment of missing history, or a query about how we might shore up misconceptions associated with the term or the mechanism it presumes to represent.
 
-== Term-virgils
+== Term-stewards
 
 New terms are brought to the LOLM working group through a *virgil*.
-Any member of the working group can self-elect as a new term's virgil, and all working group sessions will begin with an open call for new term-virgils.
-Not all working group members need to self-elect as a term-virgil, and there is no limit to the number of concurrent terms for which one person can self-elect as virgil.
+Any member of the working group can self-elect as a new term's steward, and all working group sessions will begin with an open call for new term-stewards.
+Not all working group members need to self-elect as a term-steward, and there is no limit to the number of concurrent terms for which one person can self-elect as steward.
 
 A term's virgil brings a new term to the working group with _at least one_ and ideally multiple of the following:
 - A technical understanding of the term (of any character, level, or depth).
@@ -37,13 +37,13 @@ Post-discussion, the working group will then elect an *editor* for the term who 
 
 == Term-editors
 
-A term-editor is responsible for filling out an entry in LOLM itself by working with the term-virgil and other invested/interested parties.
+A term-editor is responsible for filling out an entry in LOLM itself by working with the term-steward and other invested/interested parties.
 
 This contribution will ultimately take the form of a #link("https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests")[pull request] to the LOLM GitHub repository.
 All sections of LOLM are written in #link("https://typst.app/")[Typst], and LOLM is envisioned as being published concurrently as a website (https://lolm.ohrg.org/), a PDF, and an EPUB through the #link("https://rheo.ohrg.org/")[Rheo] toolchain.
 (Merging a pull request to the `main` branch of the LOLM GitHub repository will trigger a recompilation of all three of these formats.)
 
-Whereas the term-virgil is responsible for surfacing the dimensions of a term that should be documented in its LOLM entry, the term-editor is responsible for compiling these many threads into a single and coherent entry in the project.
+Whereas the term-steward is responsible for surfacing the dimensions of a term that should be documented in its LOLM entry, the term-editor is responsible for compiling these many threads into a single and coherent entry in the project.
 The construction of this entry may benefit from separate meetings between virgil and editor, and perhaps even sub-working groups if there are many interested parties.
 
 There is no strict timeframe on a term's transition from discussion (via virgil) to page (via editor).
