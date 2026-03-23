@@ -11,7 +11,7 @@
 
 An embedding is a representation of discrete high-dimensional and conceptual data (such as words, sentences, or images) as a continuous and compact vector space. 
 This approach aims to make meaningful connections between objects mapping similar concepts closer together such that we can identify patterns in representations. 
-AI models are unable to work with data like words and images directly; embedding is a method that encodes this data as lists of numbers (vectors) that the model can work with and transform. 
+AI models are enabled by embeddings as they stand in as 'indirect' access to the 'meaning' of the image/word. Models can work with and transform embedding data as it is a form of representing any digital media object as a set of lists of numbers (vectors). 
 
 == Recent usage
 
