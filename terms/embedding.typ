@@ -15,7 +15,7 @@ AI models are unable to work with data like words and images directly; embedding
 
 == Recent usage
 
-Word2vec @mikolov_efficient_2013, a kind of embedding that maps words to numerical vectors, is one of the predominant uses of embeddings in contemporary AI models. 
+Word2vec @mikolov_efficient_2013 is a kind of embedding that maps words to numerical vectors. This kind of embedding is one of the most ubiquitous in contemporary AI models. 
 Word2vec innovates over previous techniques for encoding words in natural language by mapping billions of words in the same representation space.
 Working with these large data-sets word-embeddings are able to capture multiple kinds of similarities between words.
 Word2vec for instance showed early results "where simple algebraic operations are performed on the word vectors, it was shown for example that vector(”King”) - vector(”Man”) + vector(”Woman”) results in a vector that is closest to the vector representation of the word Queen"@mikolov_efficient_2013 (see @mikolov-etal-2013-linguistic). 
