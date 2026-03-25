@@ -49,7 +49,7 @@
 - #term("tokenization", "./tokenization.html")
 - #term("transformer", "./transformer.html")
 - #term("vibe coding", "./vibe-coding.html") 
-- #term("world model", "./world-model.html")
+- #term("world model", "./world-model.html", active: true)
 
 == What is this?
 
