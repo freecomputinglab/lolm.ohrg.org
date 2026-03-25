@@ -28,10 +28,10 @@ In model training, models learn the vector semantics of the most common word-emb
 
 Embeddings are used for more than just words. 
 Learning models of all kinds (see #link("multimodality.typ")[Multimodality]) use embeddings to represent all kinds of data. 
-Image-embeddings represent image data as compact vectorial embeddings enabling models to search images for specific features (see #link("https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-image-retrieval")[Microsoft Multimodal Embeddings]), and text-image paired data embeddings enable models to generate images from text-based prompts.@girdhar2023imagebindembeddingspacebind 
-With embeddings complex data structures like graphs can be represented in compact continuous vector space while preserving their structure. @DBLP 
+Image-embeddings represent image data as compact vectorial embeddings enabling models to search images for specific features (see #link("https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-image-retrieval")[Microsoft Multimodal Embeddings]), and text-image paired data embeddings enable models to generate images from text-based prompts @girdhar2023imagebindembeddingspacebind. 
+With embeddings complex data structures like graphs can be represented in compact continuous vector space while preserving their structure @DBLP. 
 
-Recent efforts seek to create a singular, universal latent space for embeddings, called universal embeddings or vec2vec to cover unstructured and unsupervised meaning-representation. @jha_harnessing_2026
+Recent efforts seek to create a singular, universal latent space for embeddings, called universal embeddings or vec2vec to cover unstructured and unsupervised meaning-representation @jha_harnessing_2026.
 
 
 
@@ -41,13 +41,13 @@ Recent efforts seek to create a singular, universal latent space for embeddings,
 Think of embeddings as a mathematized version of any canonical representation system. 
 
 German mathematician and linguist Hermann Graßmann's theories of "exterior algebra" and "extension theory" [_Ausdehnungslehre_] posits an early version of vector space, where high-dimensional algebraic objects can be thought of independent of beyond traditional 3-dimensional geometric notions.@grassmann1844lineale 
-For an intellectual history of vector space, see _Vector Media_. @offert_vector_2026
+For an intellectual history of vector space, see _Vector Media_ @offert_vector_2026.
 
 Cognitive scientists have conceptualized language and cognition through direct comparisons to computation and vectorial semantics. 
-See Peter Gärdenfors _Conceptual Spaces_. @gardenfors_conceptual_2004
+See Peter Gärdenfors _Conceptual Spaces_ @gardenfors_conceptual_2004.
 
 == Extensions, prehensions, and pretensions
 
-[IDEA] Have embeddings overturned Frege's hypothesis that: "we can never...decide by means of our definitions whether any concept has the number Julius Caesar belonging to it, or whether that same familiar conqueror of Gaul is a number or not"? @frege_foundations_1980 
+[IDEA] Have embeddings overturned Frege's hypothesis that: "we can never...decide by means of our definitions whether any concept has the number Julius Caesar belonging to it, or whether that same familiar conqueror of Gaul is a number or not" @frege_foundations_1980? 
 
 #bibliography("./references.bib")
