@@ -1,6 +1,12 @@
 #import "index.typ": template
 #show: template
 
+#table(
+  columns: 2,
+  [Steward], [Ryan Healey],
+  [Editor], [TBA],
+)
+
 [pending]
 // Tokenization is the process by which a chat AI system breaks down your message into digestible pieces called tokens before it can understand and respond to you.
 // Rather than processing entire words as atomic units, the system uses an algorithm to split text into smaller chunks—some common words stay whole, while unusual or complex words get divided into recognizable parts, and punctuation typically becomes separate tokens.
