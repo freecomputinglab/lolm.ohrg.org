@@ -49,7 +49,7 @@
 - #term("temperature", "./temperature.html")
 - #term("tokenization", "./tokenization.html", active: true)
 - #term("transformer", "./transformer.html")
-- #term("turing test", "./turing-test.html")
+- #term("turing test", "./turing-test.html", active: true)
 - #term("vibe coding", "./vibe-coding.html")
 - #term("vector space", "./vector-space.html", active: true)
 - #term("world model", "./world-model.html", active: true)
