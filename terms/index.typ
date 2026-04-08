@@ -4,7 +4,7 @@
       fill: rgb("#f0f0f0"),
       inset: 6pt,
       radius: 3pt,
-      [#link(url)[#name]]
+      [#link(url)[#name]],
     )
   } else {
     [#link(url)[#name]]
@@ -25,7 +25,7 @@
 - #term("attention", "./attention.html", active: true)
 - #term("base model", "./base-model.html")
 - #term("benchmarking", "./benchmarking.html")
-- #term("chain-of-thought", "./chain-of-thought.html", active:true)
+- #term("chain-of-thought", "./chain-of-thought.html", active: true)
 - #term("context window", "./context-window.html")
 - #term("counterfactuality", "./counterfactuality.html", active: true)
 - #term("embedding", "./embedding.html", active: true)
@@ -34,6 +34,7 @@
 - #term("gpu", "./gpu.html")
 - #term("homogenization effects", "./homogenization-effects.html", active: true)
 - #term("inference", "./inference.html", active: true)
+- #term("latent space", "./latent-space.html", active: true)
 - #term("multimodality", "./multimodality.html")
 - #term("neural net", "./neural-net.html")
 - #term("pre-training", "./pre-training.html")
@@ -48,7 +49,9 @@
 - #term("temperature", "./temperature.html")
 - #term("tokenization", "./tokenization.html", active: true)
 - #term("transformer", "./transformer.html")
-- #term("vibe coding", "./vibe-coding.html") 
+- #term("turing test", "./turing-test.html")
+- #term("vibe coding", "./vibe-coding.html")
+- #term("vector space", "./vector-space.html", active: true)
 - #term("world model", "./world-model.html", active: true)
 
 == What is this?
@@ -59,10 +62,10 @@ Said vocabulary is in-progress above: terms with a grey background are in flight
 For more information regarding our process, see #link("./working-group.typ")[Progressing the Terminology].
 Some work that inspires our approach:
 
-- #link("https://direct.mit.edu/books/monograph/4424/Parallel-Distributed-Processing-Volume")[Parallel Distributed Processing] (1987)  
-- #link("https://www.routledge.com/The-Language-of-Psychoanalysis/Laplanche-Pontalis/p/book/9780946439492")[The Language of Psychoanalysis], Jean Laplanche (1988) 
-- #link("https://archive.org/details/computerpowerhum0000weiz_v0i3")[Computer Power and Human Reason], Joseph Weizenbaum (1976) 
-- #link("https://arxiv.org/abs/1706.03762")[Attention is All You Need] (2017) 
+- #link("https://direct.mit.edu/books/monograph/4424/Parallel-Distributed-Processing-Volume")[Parallel Distributed Processing] (1987)
+- #link("https://www.routledge.com/The-Language-of-Psychoanalysis/Laplanche-Pontalis/p/book/9780946439492")[The Language of Psychoanalysis], Jean Laplanche (1988)
+- #link("https://archive.org/details/computerpowerhum0000weiz_v0i3")[Computer Power and Human Reason], Joseph Weizenbaum (1976)
+- #link("https://arxiv.org/abs/1706.03762")[Attention is All You Need] (2017)
 
 == Who does this?
 
