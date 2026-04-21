@@ -29,6 +29,7 @@
 - #term("context window", "./context-window.html")
 - #term("counterfactuality", "./counterfactuality.html", active: true)
 - #term("embedding", "./embedding.html", active: true)
+- #term("feature", "./feature.html", active: true)
 - #term("few shot", "./few-shot.html")
 - #term("fine tuning", "./fine-tuning.html")
 - #term("gpu", "./gpu.html")
