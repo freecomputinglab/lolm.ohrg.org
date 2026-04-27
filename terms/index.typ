@@ -37,7 +37,7 @@
 - #term("neural net", "./neural-net.html")
 - #term("pre-training", "./pre-training.html")
 - #term("prompt engineering", "./prompt-engineering.html")
-- #term("prompt injection", "./prompt-injection.html")
+- #term("prompt injection", "./prompt-injection.html", status:"active")
 - #term("quanta", "./quanta.html", status: "active")
 - #term("reasoning", "./reasoning.html")
 - #term("red teaming", "./red-teaming.html")
