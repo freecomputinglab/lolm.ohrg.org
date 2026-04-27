@@ -132,41 +132,61 @@ body > h3:nth-of-type(1) + ul li a {
   overflow-wrap: break-word;
 }
 
-/* Active terms: override inline display on span, make it fill the cell */
+/* Active terms (span): grey background */
 body > h3:nth-of-type(1) + ul li span {
   display: block !important;
   width: 100%;
   height: 4em;
-  padding: 0.5em;
   background-color: #f0f0f0;
   box-sizing: border-box;
 }
 
-/* Active term links should be transparent so grey background shows */
 body > h3:nth-of-type(1) + ul li span a {
   background-color: transparent !important;
-  padding: 0;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-/* Active term links should be transparent so grey background shows */
-body > h3:nth-of-type(1) + ul li span a {
-  background-color: transparent !important;
+/* Complete terms (mark): green background */
+body > h3:nth-of-type(1) + ul li mark {
+  display: block !important;
+  width: 100%;
+  height: 4em;
+  background-color: rgba(0, 128, 0, 0.12) !important;
+  box-sizing: border-box;
 }
 
+body > h3:nth-of-type(1) + ul li mark a {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Hover for all term links */
 body > h3:nth-of-type(1) + ul li a:hover {
   background-color: var(--text-color);
   color: var(--background-color);
   opacity: 1;
 }
 
-/* Active term hover: change span background */
 body > h3:nth-of-type(1) + ul li span:hover {
   background-color: var(--text-color);
 }
 
 body > h3:nth-of-type(1) + ul li span a:hover {
+  color: var(--background-color);
+}
+
+body > h3:nth-of-type(1) + ul li mark:hover {
+  background-color: var(--text-color);
+}
+
+body > h3:nth-of-type(1) + ul li mark a:hover {
   color: var(--background-color);
 }
 

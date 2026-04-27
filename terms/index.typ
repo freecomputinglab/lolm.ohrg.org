@@ -1,11 +1,8 @@
-#let term(name, url, active: false) = {
-  if active {
-    box(
-      fill: rgb("#f0f0f0"),
-      inset: 6pt,
-      radius: 3pt,
-      [#link(url)[#name]],
-    )
+#let term(name, url, status: "inactive") = {
+  if status == "active" {
+    box[#link(url)[#name]]
+  } else if status == "drafted" {
+    highlight[#link(url)[#name]]
   } else {
     [#link(url)[#name]]
   }
@@ -18,48 +15,48 @@
 
 #show: template
 
-- #term("llm", "./llm.html", active: true)
-- #term("alignment", "./alignment.html", active: true)
+- #term("llm", "./llm.html", status: "drafted")
+- #term("alignment", "./alignment.html", status: "active")
 - #term("artificial general intelligence", "./artificial-general-intelligence.html")
 - #term("artificial intelligence", "./artificial-intelligence.html")
-- #term("attention", "./attention.html", active: true)
+- #term("attention", "./attention.html", status: "drafted")
 - #term("base model", "./base-model.html")
 - #term("benchmarking", "./benchmarking.html")
-- #term("chain-of-thought", "./chain-of-thought.html", active: true)
+- #term("chain-of-thought", "./chain-of-thought.html")
 - #term("context window", "./context-window.html")
-- #term("counterfactuality", "./counterfactuality.html", active: true)
-- #term("embedding", "./embedding.html", active: true)
-- #term("feature", "./feature.html", active: true)
+- #term("counterfactuality", "./counterfactuality.html")
+- #term("embedding", "./embedding.html", status: "drafted")
+- #term("feature", "./feature.html", status: "active")
 - #term("few shot", "./few-shot.html")
 - #term("fine tuning", "./fine-tuning.html")
 - #term("gpu", "./gpu.html")
-- #term("homogenization effects", "./homogenization-effects.html", active: true)
-- #term("inference", "./inference.html", active: true)
-- #term("latent space", "./latent-space.html", active: true)
+- #term("homogenization effects", "./homogenization-effects.html", status: "active")
+- #term("inference", "./inference.html")
+- #term("latent space", "./latent-space.html", status: "active")
 - #term("multimodality", "./multimodality.html")
 - #term("neural net", "./neural-net.html")
 - #term("pre-training", "./pre-training.html")
 - #term("prompt engineering", "./prompt-engineering.html")
 - #term("prompt injection", "./prompt-injection.html")
-- #term("quanta", "./quanta.html")
+- #term("quanta", "./quanta.html", status: "active")
 - #term("reasoning", "./reasoning.html")
 - #term("red teaming", "./red-teaming.html")
 - #term("reinforcement learning", "./reinforcement-learning.html")
-- #term("scale", "./scale.html", active: true)
+- #term("scale", "./scale.html")
 - #term("slop", "./slop.html")
-- #term("superposition", "./superposition.html", active: true)
+- #term("superposition", "./superposition.html", status: "drafted")
 - #term("temperature", "./temperature.html")
-- #term("tokenization", "./tokenization.html", active: true)
+- #term("tokenization", "./tokenization.html")
 - #term("transformer", "./transformer.html")
-- #term("turing test", "./turing-test.html", active: true)
+- #term("turing test", "./turing-test.html", status: "drafted")
 - #term("vibe coding", "./vibe-coding.html")
-- #term("vector space", "./vector-space.html", active: true)
-- #term("world model", "./world-model.html", active: true)
+- #term("vector space", "./vector-space.html", status: "active")
+- #term("world model", "./world-model.html")
 
 == What is this?
 
 _The Language of Language Machines_ is a working group to produce a critical vocabulary for understanding contemporary (post-2015) natural language processing (NLP) literature.
-Said vocabulary is in-progress above: terms with a grey background are in flight within the working group.
+Said vocabulary is in-progress above: terms with a grey background are in flight within the working group; terms with a green background are complete.
 
 For more information regarding our process, see #link("./working-group.typ")[Progressing the Terminology].
 Some work that inspires our approach:
