@@ -41,6 +41,7 @@
 - #term("pre-training", "./pre-training.html")
 - #term("prompt engineering", "./prompt-engineering.html")
 - #term("prompt injection", "./prompt-injection.html")
+- #term("quanta", "./quanta.html")
 - #term("reasoning", "./reasoning.html")
 - #term("red teaming", "./red-teaming.html")
 - #term("reinforcement learning", "./reinforcement-learning.html")
