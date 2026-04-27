@@ -1,7 +1,11 @@
 #import "index.typ": template
 #show: template
 
-[pending]
+#table(
+  columns: 2,
+  [Steward], [Ryan Healey],
+  [Editor], [TBA],
+)
 
 // Prompt injection is a security vulnerability where someone crafts input that tricks an AI system into ignoring its original instructions and following new, potentially malicious commands instead.
 // Similar to how SQL injection attacks manipulate database queries, prompt injection exploits the fact that these AI systems can't always reliably distinguish between their programmed guidelines and user-provided text, especially when that text cleverly mimics system instructions.
