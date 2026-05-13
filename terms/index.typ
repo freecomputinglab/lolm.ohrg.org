@@ -37,7 +37,7 @@
 - #term("neural net", "./neural-net.html")
 - #term("pre-training", "./pre-training.html")
 - #term("prompt engineering", "./prompt-engineering.html")
-- #term("prompt injection", "./prompt-injection.html", status:"active")
+- #term("prompt injection", "./prompt-injection.html", status: "active")
 - #term("quanta", "./quanta.html", status: "active")
 - #term("reasoning", "./reasoning.html")
 - #term("red teaming", "./red-teaming.html")
@@ -69,5 +69,5 @@ Some work that inspires our approach:
 == Who does this?
 
 The working group is currently run by #link("https://lachlankermode.com/")[Lachlan Kermode] and #link("https://ryan-healey.com/")[Ryan Healey].
-We meet weekly on Tuesdays at 3PM-4PM CET (9AM-10AM EST).
+We meet weekly on Wednesdays at 4PM-5PM CET (10AM-11AM EST).
 Reach out to #link("mailto:hi@ohrg.org")[hi\@ohrg.org] to join.
