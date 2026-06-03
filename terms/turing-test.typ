@@ -60,11 +60,6 @@ The Turing test was stood up under the aegis of this Cartesian assumption.
 For a half-century after the paper in which it was announced was published, language's representative claim to intelligence was supported by the fact that no computer program could both produce convincing language _and_ show understanding of its production.
 
 At least, this is the whiggish history of the Turing test's obduracy in the dark ages before the invention of the #link("./transformer.typ")[transformer].
-An important and revealing blip in this brash historical summary is ELIZA, a computer program developed at MIT by Joseph Weizenbaum and released in 1966 that parrotted questions back at a human interlocutor by ranking keywords sourced from their prompts and producing valid sentences by recombining them.
-
-ELIZA threw the underspecified nature of the Turing test into relief as early as a decade after its invention.
-Many ELIZA users felt a genuine emotional attachment to the program; or rather, the entity they projected into it on account of the therapeutic effect of its responses.
-[WIP] thread together ELIZA, psychoanalysis, and the Turing test in a closing statement.
-
+An important and revealing blip in this brash historical summary is #link("./eliza.typ")[ELIZA].
 
 #bibliography("./references.bib")

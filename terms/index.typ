@@ -25,6 +25,7 @@
 - #term("chain-of-thought", "./chain-of-thought.html")
 - #term("context window", "./context-window.html")
 - #term("counterfactuality", "./counterfactuality.html")
+- #term("eliza effect", "./eliza-effect.html", status: "active")
 - #term("embedding", "./embedding.html", status: "drafted")
 - #term("feature", "./feature.html", status: "active")
 - #term("few shot", "./few-shot.html")
