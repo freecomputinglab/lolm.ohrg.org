@@ -25,6 +25,7 @@
 - #term("chain-of-thought", "./chain-of-thought.html")
 - #term("context window", "./context-window.html")
 - #term("counterfactuality", "./counterfactuality.html")
+- #term("eliza effect", "./eliza-effect.html", status: "active")
 - #term("embedding", "./embedding.html", status: "drafted")
 - #term("feature", "./feature.html", status: "active")
 - #term("few shot", "./few-shot.html")
@@ -63,6 +64,7 @@ Some work that inspires our approach:
 
 - #link("https://direct.mit.edu/books/monograph/4424/Parallel-Distributed-Processing-Volume")[Parallel Distributed Processing] (1987)
 - #link("https://www.routledge.com/The-Language-of-Psychoanalysis/Laplanche-Pontalis/p/book/9780946439492")[The Language of Psychoanalysis], Jean Laplanche (1988)
+- #link("https://plato.stanford.edu/")[Stanford Encyclopaedia of Philosophy]
 - #link("https://archive.org/details/computerpowerhum0000weiz_v0i3")[Computer Power and Human Reason], Joseph Weizenbaum (1976)
 - #link("https://arxiv.org/abs/1706.03762")[Attention is All You Need] (2017)
 

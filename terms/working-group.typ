@@ -61,6 +61,5 @@ Each working group session will assess the terms that are in flight, asking stat
 
 The LOLM working group uses the following tools and platforms:
 
-- #link("https://en.wikipedia.org/wiki/Zulip")[Zulip] as a platform for online and asynchronous discussion. #link("https://freecomputinglab.zulipchat.com/join/dit724hcwgbhic3xxwkdpkqs/")[Join the Free Computing Lab Zulip instance], and direct message 'Lachlan Kermode' to be added to the private channel.
 - #link("https://github.com/")[GitHub] as a source forge. The #link("https://github.com/freecomputinglab/lolm.ohrg.org")[LOLM repository] is developed in public, and as such anyone can open a pull request to it. (For technical guidance on how this can be done, please ask in Zulip.)
 - #link("https://typst.app")[Typst] is the markup language in which LOLM is written. If you are new to Typst, we recommend the #link("https://typst.app/docs/tutorial/")[excellent Typst tutorial].
