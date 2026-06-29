@@ -15,5 +15,5 @@ ELIZA threw the underspecified nature of the Turing test into relief as early as
 Many ELIZA users felt a genuine emotional attachment to the program; or rather, to the entity they projected into the program on account of the unexpected therapeutic effect of interacting with it.
 This apperception was dubbed the 'ELIZA effect'...
 
-[WIP] thread together ELIZA, psychoanalysis, and #link("./turing-test.typ")[the Turing test] .
+[WIP] thread together ELIZA, psychoanalysis, and #link(<turing-test>)[the Turing test] .
 

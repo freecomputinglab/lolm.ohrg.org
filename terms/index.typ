@@ -1,10 +1,11 @@
-#let term(name, url, status: "inactive") = {
+#let term(name, status: "inactive") = {
+  let handle = name.replace(" ", "-")
   if status == "active" {
-    box[#link(url)[#name]]
+    box[#link(label(handle))[#name]]
   } else if status == "drafted" {
-    highlight[#link(url)[#name]]
+    highlight[#link(label(handle))[#name]]
   } else {
-    [#link(url)[#name]]
+    [#link(label(handle))[#name]]
   }
 }
 
@@ -15,51 +16,51 @@
 
 #show: template
 
-- #term("llm", "./llm.html", status: "drafted")
-- #term("alignment", "./alignment.html", status: "active")
-- #term("artificial general intelligence", "./artificial-general-intelligence.html")
-- #term("artificial intelligence", "./artificial-intelligence.html")
-- #term("attention", "./attention.html", status: "drafted")
-- #term("base model", "./base-model.html")
-- #term("benchmarking", "./benchmarking.html")
-- #term("chain-of-thought", "./chain-of-thought.html")
-- #term("context window", "./context-window.html")
-- #term("counterfactuality", "./counterfactuality.html")
-- #term("eliza effect", "./eliza-effect.html", status: "active")
-- #term("embedding", "./embedding.html", status: "drafted")
-- #term("feature", "./feature.html", status: "active")
-- #term("few shot", "./few-shot.html")
-- #term("fine tuning", "./fine-tuning.html")
-- #term("gpu", "./gpu.html")
-- #term("homogenization effects", "./homogenization-effects.html", status: "active")
-- #term("inference", "./inference.html")
-- #term("latent space", "./latent-space.html", status: "active")
-- #term("multimodality", "./multimodality.html")
-- #term("neural net", "./neural-net.html")
-- #term("pre-training", "./pre-training.html")
-- #term("prompt engineering", "./prompt-engineering.html")
-- #term("prompt injection", "./prompt-injection.html")
-- #term("quanta", "./quanta.html", status: "active")
-- #term("reasoning", "./reasoning.html")
-- #term("red teaming", "./red-teaming.html")
-- #term("reinforcement learning", "./reinforcement-learning.html")
-- #term("scale", "./scale.html")
-- #term("slop", "./slop.html")
-- #term("superposition", "./superposition.html", status: "drafted")
-- #term("temperature", "./temperature.html")
-- #term("tokenization", "./tokenization.html")
-- #term("transformer", "./transformer.html")
-- #term("turing test", "./turing-test.html", status: "drafted")
-- #term("vibe coding", "./vibe-coding.html")
-- #term("vector space", "./vector-space.html", status: "active")
-- #term("world model", "./world-model.html")
+- #term("llm", status: "drafted")
+- #term("alignment", status: "active")
+- #term("artificial general intelligence")
+- #term("artificial intelligence")
+- #term("attention", status: "drafted")
+- #term("base model")
+- #term("benchmarking")
+- #term("chain-of-thought")
+- #term("context window")
+- #term("counterfactuality")
+- #term("eliza effect", status: "active")
+- #term("embedding", status: "drafted")
+- #term("feature", status: "active")
+- #term("few shot")
+- #term("fine tuning")
+- #term("gpu")
+- #term("homogenization effects", status: "active")
+- #term("inference")
+- #term("latent space", status: "active")
+- #term("multimodality")
+- #term("neural net")
+- #term("pre-training")
+- #term("prompt engineering")
+- #term("prompt injection")
+- #term("quanta", status: "active")
+- #term("reasoning")
+- #term("red teaming")
+- #term("reinforcement learning")
+- #term("scale")
+- #term("slop")
+- #term("superposition", status: "drafted")
+- #term("temperature")
+- #term("tokenization")
+- #term("transformer")
+- #term("turing test", status: "drafted")
+- #term("vibe coding")
+- #term("vector space", status: "active")
+- #term("world model")
 
 == What is this?
 
 _The Language of Language Machines_ is a working group to produce a critical vocabulary for understanding contemporary (post-2015) natural language processing (NLP) literature.
 Said vocabulary is in-progress above: terms with a grey background are in flight within the working group; terms with a green background are complete.
 
-For more information regarding our process, see #link("./working-group.typ")[Progressing the Terminology].
+For more information regarding our process, see #link(<working-group>)[Progressing the Terminology].
 Some work that inspires our approach:
 
 - #link("https://direct.mit.edu/books/monograph/4424/Parallel-Distributed-Processing-Volume")[Parallel Distributed Processing] (1987)

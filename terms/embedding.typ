@@ -23,11 +23,11 @@ This kind of embedding is one of the most ubiquitous in contemporary AI models.
 Word2vec innovates over previous techniques for encoding words in natural language by mapping billions of words in the same vector space of representations.
 Working with these large data-sets word-embeddings are able to capture multiple kinds of similarities between words.
 Word2vec for instance showed early results #quote[where simple algebraic operations are performed on the word vectors, it was shown for example that vector("King") - vector("Man") + vector("Woman") results in a vector that is closest to the vector representation of the word Queen] @mikolov_efficient_2013 (see also @mikolov-etal-2013-linguistic). 
-Word-embedding techniques like word2vec allow Large Language Models (see #link("llm.typ")[LLM]) to make syntactic and semantic connections between words to form coherent phrases and sentences. 
+Word-embedding techniques like word2vec allow Large Language Models (see #link(<llm>)[LLM]) to make syntactic and semantic connections between words to form coherent phrases and sentences. 
 In model training, models learn the vector semantics of the most common word-embeddings reducing complexity and increasing the meaningfulness of representations. 
 
 Embeddings are used for more than just words. 
-Learning models of all kinds (see #link("multimodality.typ")[Multimodality]) use embeddings to represent all kinds of data. 
+Learning models of all kinds (see #link(<multimodality>)[Multimodality]) use embeddings to represent all kinds of data. 
 Image-embeddings represent image data as compact vectorial embeddings enabling models to search images for specific features (see #link("https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-image-retrieval")[Microsoft Multimodal Embeddings]), and text-image paired data embeddings enable models to generate images from text-based prompts @girdhar2023imagebindembeddingspacebind. 
 With embeddings complex data structures like graphs can be represented in compact continuous vector space while preserving their structure @DBLP. 
 

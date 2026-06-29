@@ -10,7 +10,7 @@
 )
 
 
-#link("./llm.typ")[LLMs] have provoked a general hysteria around how the automation of textual language's production could upend our societal and even existential situation.
+#link(<llm>)[LLMs] have provoked a general hysteria around how the automation of textual language's production could upend our societal and even existential situation.
 Despite the persistent suggestion that we are dealing with an entirely novel technology, this species of hysteria has great precedent in the history of computer science.
 
 In his now-famous 1950 paper, _Computing Intelligence and Machinery_ @turingComputingMachineryIntelligence2004, Alan Turing proposed the imitation game as a thought experiment which could frame advances in the nascent field of 'artificial intelligence'.
@@ -59,7 +59,7 @@ For this reason, machines cannot meaningfully reproduce language, according to D
 The Turing test was stood up under the aegis of this Cartesian assumption.
 For a half-century after the paper in which it was announced was published, language's representative claim to intelligence was supported by the fact that no computer program could both produce convincing language _and_ show understanding of its production.
 
-At least, this is the whiggish history of the Turing test's obduracy in the dark ages before the invention of the #link("./transformer.typ")[transformer].
-An important and revealing blip in this brash historical summary is #link("./eliza.typ")[ELIZA].
+At least, this is the whiggish history of the Turing test's obduracy in the dark ages before the invention of the #link(<transformer>)[transformer].
+An important and revealing blip in this brash historical summary is #link(<eliza-effect>)[ELIZA].
 
 #bibliography("./references.bib")

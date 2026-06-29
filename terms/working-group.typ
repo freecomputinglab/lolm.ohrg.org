@@ -15,7 +15,7 @@ In contrast to a 'collected edition' of contributions, where each entry constitu
 Where possible, they should draw on and refer to explanations in other entries.
 They should also be brief and as tightly #link("https://stackify.com/oop-concept-for-beginners-what-is-encapsulation/")[encapsulated] as possible.
 In practice, this means that entries should normally be around 5-10 paragraphs.
-(See #link("./llm.typ")[the entry for LLM] as an example.)
+(See #link(<llm>)[the entry for LLM] as an example.)
 
 Each entry should target _at least one_ of the aims listed in the bullet points below.
 Though entries can achieve multiple of the aims below, they only need to address one, as we want to keep a relatively low barrier to entry for new members of the working group / new terms.
